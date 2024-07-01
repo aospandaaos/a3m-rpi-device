@@ -4,7 +4,7 @@
 # Copyright (C) 2020 Roman Stratiienko (r.stratiienko@gmail.com)
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rpi4.mk
+    $(LOCAL_DIR)/rpi4.mk $(LOCAL_DIR)/rpi4car.mk
 
 COMMON_LUNCH_CHOICES := \
-    rpi4-userdebug
+    rpi4-userdebug rpi4car-userdebug
